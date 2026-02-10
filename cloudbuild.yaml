@@ -5,7 +5,7 @@ steps:
       - '-c'
       - |
         echo "===Starting Python Application Build==="
-        'python:3.8-slim'hello.py
+        'python:3.8-slim' hello.py
         echo "===Python Application Build Completed==="
 
 options:
